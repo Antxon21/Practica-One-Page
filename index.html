@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EchoWave Shop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <link rel="icon" href="imagenes/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/dam.css" type="text/css">
 </head>
@@ -84,42 +85,48 @@
         <section class="contacto" id="contacto">
             <h1 class="title_formulario">FORMULARIO DE <span>CONTACTO</span></h1>
                 <form>
-                    <div>
-                        <label for="fname">Tu nombre: </label>
-                        <input type="text" name="fname" id="fname">
-                    </div>
-                    <div>
-                        <label for="">Tu apellido: </label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label for="correo">Correo:</label>
-                        <input type="email">
-                    </div>
-                        <br>
-                        <div class="desplegable">
-                            <label for="ciudad">De donde eres?</label>
-                            <select name="ciudad" id="city">
-                                <option value="" selected>Introduce una provincia</option>
-                                <option value="">Madrid</option>
-                                <option value="">Barcelona</option>
-                                <option value="">Valencia</option>
-                                <option value="">Sevilla</option>
-                                <option value="">Islas Baleares</option>
-                                <option value="">Alicante</option>
-                                <option value="">Malaga</option>
-                                <option value="">Murcia</option>
-                                <option value="">Cadiz</option>
-                            </select>
+                    <img src="imagenes/usuario.jpeg" alt="">
+                    <div class="formmain">
+                        <div class="column1">
+                            <div>
+                                <label for="fname">Tu nombre: </label>
+                                <input type="text" name="fname" id="fname">
+                            </div>
+                            <div>
+                                <label for="">Tu apellido: </label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="correo">Correo:</label>
+                                <input type="email">
+                            </div>
                         </div>
-                        <div>
-                            <label for="">Fecha de nacimiento:</label>
-                            <input type="date">
+                        <div class="column2">
+                            <div class="desplegable">
+                                <label for="ciudad">De donde eres?</label>
+                                <select name="ciudad" id="city">
+                                    <option value="" selected>Introduce una provincia</option>
+                                    <option value="">Madrid</option>
+                                    <option value="">Barcelona</option>
+                                    <option value="">Valencia</option>
+                                    <option value="">Sevilla</option>
+                                    <option value="">Islas Baleares</option>
+                                    <option value="">Alicante</option>
+                                    <option value="">Malaga</option>
+                                    <option value="">Murcia</option>
+                                    <option value="">Cadiz</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="">Fecha de nacimiento:</label>
+                                <input type="date">
+                            </div>
+                            <div>
+                                <label for="">Teléfono:</label>
+                                <input type="number">
+                            </div>
                         </div>
-                        <div>
-                            <label for="">Teléfono:</label>
-                            <input type="number">
-                        </div>
+                    </div>
                         <div class="submit">
                             <input type="submit">
                         </div>
