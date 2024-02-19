@@ -449,3 +449,209 @@ font-size: 30px;
 .copy p{
     margin-bottom: 0;
 }
+
+/*MODO RESPONSIVE*/
+
+/*PRODUCTOS*/
+
+@media (max-width: 700px){
+
+    /*MAIN*/
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Barlow Condensed", sans-serif;
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 200%;
+    }
+
+    main{
+        margin-top: 0px;
+        color:  white;text-align: center;
+        padding-top: 150px;
+        margin: 0px;
+        margin-bottom: 0;
+        width: 870px;
+    }
+
+    /*PRODUCTOS*/
+    
+    .producto{
+        background-color: #19042e;
+        color: white;
+
+    }
+    
+    .producto h1{
+        font-size: 50px;
+        color: white;
+        padding-top: 120px;
+    }
+    
+    .producto span{
+        color: #9A33FF;
+    }
+    
+    .producto div{
+        flex-wrap: wrap;
+    }
+    
+    .description{
+        width: 40%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .producto div{
+        display: flex;
+    }
+    
+    article{
+        height: 500px;
+        margin-top: 70px;
+        border-radius: 100px;
+        margin-bottom: 100px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .fondo{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        width: 700px;
+        height: 420px;
+        margin: auto;
+        background-color: rgba(0,0,0,0.6);
+        color: black;
+        border-radius: 100px;
+        margin-bottom: 100px;
+    }
+
+    /*PROYECTOS*/
+
+
+    .proyectos{
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top: 3px solid white;
+        background-size: 160%;
+        height: 100%;
+    }
+
+    .div1{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .div2{
+        margin: auto;
+    }
+    
+    /*CONTACTO*/
+
+    .contacto{
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200%;
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+
+    /*MAPA*/
+
+    iframe{
+        width: 80%;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        width: 125%;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Barlow Condensed", sans-serif;
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 200%;
+        width: 120%;
+    }
+
+
+    .producto{
+        background-color: #19042e;
+        color: white;
+        width: 120%;
+        margin: auto;
+    }
+
+    .proyectos{
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 140%;
+        height: 800px;
+        width: 120%;
+        border-top: 3px solid white;
+    }
+
+    .proyectos div{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .sobre{
+        width: 105%;
+    }
+
+    .title_sobre{
+        width: 105%;
+    }
+
+    .sobre div{
+        width: 400px;
+    }
+
+    /*FORMULARIO*/
+
+    .map{
+        width: 120%;
+    }
+
+
+    .contacto{
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200%;
+        margin-bottom: 0;
+        padding-bottom: 40px;
+        width: 120%;
+    }
+
+}
+
+@media (max-width: 1700px){
+    .contacto{
+        background-image: url('../imagenes/fondo\ home.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200%;
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+}
